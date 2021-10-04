@@ -1,6 +1,6 @@
 {    "name": "bayard/directus-sdk",
     "description": "A Directus API Client for PHP",
-    "type": "package",
+    "type": "library",
       "require": {
           "php-curl-class/php-curl-class": "^9.4",
         "ext-json": "*",
@@ -10,6 +10,17 @@
           "psr-4": {
               "Bayard\\DirectusSdk\\": "src/"
           }
-      }
+      },
+      "authors": [
+        {
+            "name": "Saifeddine Bahri",
+            "email": "saifeddine.bahri_prestataire@Bayard-presse.com"
+        }
+    ],    
+    "config": {
+        "sort-packages": true
+    },
+
+    "minimum-stability": "stable"
   }
   
