@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php-curl-class/php-curl-class": "^9.4",
+      "ext-json": "*",
+        "cache/array-adapter": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bayard\\DirectusSdk\\": "src/"
+        }
+    }
+}
