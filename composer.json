@@ -1,12 +1,15 @@
-{
-    "require": {
-        "php-curl-class/php-curl-class": "^9.4",
-      "ext-json": "*",
-        "cache/array-adapter": "^1.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Bayard\\DirectusSdk\\": "src/"
-        }
-    }
-}
+{    "name": "bayard/directus-sdk",
+    "description": "A Directus API Client for PHP",
+    "type": "package",
+      "require": {
+          "php-curl-class/php-curl-class": "^9.4",
+        "ext-json": "*",
+          "cache/array-adapter": "^1.1"
+      },
+      "autoload": {
+          "psr-4": {
+              "Bayard\\DirectusSdk\\": "src/"
+          }
+      }
+  }
+  
